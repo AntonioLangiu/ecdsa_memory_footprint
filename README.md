@@ -1,4 +1,4 @@
-# ECDSA memory footprint
+# ECDSA Memory Footprint
 
 This repository includes scripts and code to evaluate the memory
 footprint of some libraries implementing 
