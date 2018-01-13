@@ -54,9 +54,3 @@ a reproducible environment using Vagrant. Type `vagrant up` and `vagrant ssh`
 to open a shell into the VM and then run the `./run.sh` script located
 in the shared /vagrant folder. If everything was successfull at the end of the
 build you should seen a table containing the various memory footprint.
-
-## TODO
-
-- Refactor the build system to have a comparison also for Contiki OS,
-  expecially for the TI sensortag cc2650.
-- Create a unique Makefile shared for each library.
