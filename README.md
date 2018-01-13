@@ -30,15 +30,15 @@ are not needed in this application.
 
 The result of this comparison for Posix systems can be seen in the table below:
 
-| Library     | main | SHA2 | ECC   | ECDSA |
-|-------------|------|------|-------|-------|
-| tinydtls    | 1103 | 3800 | 7531  | 9888  |
-| polarssl    | 1103 | 6056 | 23046 | 27735 |
-| matrixssl   | 1103 | 3864 | 29103 | 34022 |
-| micro-ecc   | 1103 |  /   | 8970  |   /   |
-| tinycrypt   | 1103 | 3656 | 8968  | 11241 |
-| wolfssl     | 1103 | 4592 | 31443 | 34777 |
-| libtomcrypt | 1449 | 4354 | 35959 | 38256 |
+| Library     | SHA2 | ECC   | ECDSA |
+|-------------|------|-------|-------|
+| tinydtls    | 3800 | 7531  | 9888  |
+| polarssl    | 6056 | 23046 | 27735 |
+| matrixssl   | 3864 | 29103 | 34022 |
+| micro-ecc   |  /   | 8970  |   /   |
+| tinycrypt   | 3656 | 8968  | 11241 |
+| wolfssl     | 4592 | 31443 | 34777 |
+| libtomcrypt | 4354 | 35959 | 38256 |
 
 * libtomcrypt does not contains all the symbols of libtommath that is loaded at runtime
 
