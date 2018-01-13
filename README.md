@@ -40,7 +40,8 @@ The result of this comparison for Posix systems can be seen in the table below:
 | wolfssl     | 4592 | 31443 | 34777 |
 | libtomcrypt | 4354 | 35959 | 38256 |
 
-* libtomcrypt does not contains all the symbols of libtommath that is loaded at runtime
+* libtomcrypt does not contains all the symbols of libtommath that is loaded at runtime;
+* This size includes also the size of the main;
 
 ## Build
 
