@@ -28,7 +28,8 @@ are not needed in this application.
 
 ## Evaluation
 
-The result of this comparison for Posix systems can be seen in the table below:
+The result of this comparison for Posix systems can be seen in the table below.
+This size includes also the size of the main;
 
 | Library     | SHA2 | ECC   | ECDSA |
 |-------------|------|-------|-------|
@@ -40,8 +41,8 @@ The result of this comparison for Posix systems can be seen in the table below:
 | wolfssl     | 4592 | 31443 | 34777 |
 | libtomcrypt | 4354 | 35959 | 38256 |
 
+* micro-ecc does not includes the digest calculation;
 * libtomcrypt does not contains all the symbols of libtommath that is loaded at runtime;
-* This size includes also the size of the main;
 
 ## Build
 
