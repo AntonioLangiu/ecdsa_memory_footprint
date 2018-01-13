@@ -1,7 +1,10 @@
 # ECDSA memory footprint
 
 This repository includes scripts and code to evaluate the memory
-footprint of some libraries implementing *ecc* and *sha256* functions.
+footprint of some libraries implementing 
+[ECC](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography)
+and [SHA-256](https://en.wikipedia.org/wiki/SHA-2)
+functions.
 
 ## Libraries
 
@@ -22,7 +25,7 @@ The difference in size is mainly related to the complexity and the set of
 features present in the libraries.
 
 The goal of this comparison is to find the smallest library to implement
-ECDSA validation inside a bootloader, that must be as small
+ECDSA validation inside a bootloader that must be as small
 as possible. For this reason the set of features included in many libraries
 are not needed in this application.
 
